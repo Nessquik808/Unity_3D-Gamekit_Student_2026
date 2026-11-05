@@ -24,6 +24,7 @@ public class SurvivalMod : MonoBehaviour
     void Update()
     {
         DrinkWater();
+        
         /*Subtracting the current value of thirstLevel with thirstSpeed.
          thirstSpeed is normalizes by using Time.deltaTIme, so that it's frame rate independent. 
          Math.Clamp resrticts the thirstLevel between its current may value and 0. 
@@ -80,7 +81,8 @@ public class SurvivalMod : MonoBehaviour
     {
         if (Random.Range(1, 4) == 1)
         {
-            GetWatterBottle();
+            waterBottles++;
+            Debug.Log("Water Bottles: " + waterBottles);
         }
         else 
         {
@@ -102,11 +104,5 @@ public class SurvivalMod : MonoBehaviour
                 Debug.Log("No Water Bottles Left!");
             }
         }
-        
-    }
-    private void GetWatterBottle ()
-    {
-        waterBottles++;
-        Debug.Log("Water Bottles: " + waterBottles);
     }
 }
