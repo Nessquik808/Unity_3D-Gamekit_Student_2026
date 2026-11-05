@@ -28,7 +28,7 @@ public class CameraReset : MonoBehaviour
 
             // Set the camera's horizontal axis to match the rotation value
             freeLookCamera.m_XAxis.Value = playerFacingAngle;
-
+                Debug.Log("PlayerFacingAngle: " + playerFacingAngle);
             //Debug.Log("Camera reset");
         }
         else
