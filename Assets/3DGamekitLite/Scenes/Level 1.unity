@@ -5652,7 +5652,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1270923806}
+    m_TransformParent: {fileID: 1549748475}
     m_Modifications:
     - target: {fileID: 1564851569484282, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be, type: 3}
       propertyPath: m_Name
@@ -5660,7 +5660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4330284469158708, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.6748533
+      value: -2.1213202
       objectReference: {fileID: 0}
     - target: {fileID: 4330284469158708, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5668,11 +5668,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4330284469158708, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -31
+      value: 2.1213202
       objectReference: {fileID: 0}
     - target: {fileID: 4330284469158708, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.79863554
+      value: 0.9681477
       objectReference: {fileID: 0}
     - target: {fileID: 4330284469158708, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5680,7 +5680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4330284469158708, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.60181504
+      value: 0.25038007
       objectReference: {fileID: 0}
     - target: {fileID: 4330284469158708, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be, type: 3}
       propertyPath: m_LocalRotation.z
@@ -7950,7 +7950,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 1984515101}
+      objectReference: {fileID: 0}
     - target: {fileID: 20411076524769582, guid: 0a184feab9d4a3c47be093de5e9e2964,
         type: 3}
       propertyPath: m_projectionMatrixMode
@@ -842746,7 +842746,6 @@ Transform:
   - {fileID: 850173686}
   - {fileID: 1606091924}
   - {fileID: 1549748475}
-  - {fileID: 91751768}
   - {fileID: 2045917894}
   - {fileID: 1749626877}
   - {fileID: 783981210}
@@ -1354395,7 +1354394,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4330284469158708, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 91751768}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be, type: 3}
 --- !u!4 &1549748475 stripped
@@ -1364225,43 +1364228,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dc4b663b9f9ae44cba6b06979c22815, type: 3}
---- !u!84 &1984515101
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 6
-  m_Width: 390
-  m_Height: 390
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 90
-  m_ColorFormat: 4
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 1
-  m_UseDynamicScale: 0
-  m_UseDynamicScaleExplicit: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1001 &1989057579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1365815,43 +1365781,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea9dfe00ad5fa4db7857a85c2f5009f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gamekit3D.InventoryController
---- !u!84 &2035945423
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 6
-  m_Width: 390
-  m_Height: 390
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 90
-  m_ColorFormat: 4
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 1
-  m_UseDynamicScale: 0
-  m_UseDynamicScaleExplicit: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &2039527905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366438,7 +1366367,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 2035945423}
+      objectReference: {fileID: 0}
     - target: {fileID: 20411076524769582, guid: 0a184feab9d4a3c47be093de5e9e2964,
         type: 3}
       propertyPath: m_projectionMatrixMode

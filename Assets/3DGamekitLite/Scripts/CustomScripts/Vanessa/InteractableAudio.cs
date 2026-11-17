@@ -13,4 +13,9 @@ public class InteractableAudio : ScriptableObject
     {
         RuntimeManager.PlayOneShot(pickupHealthAudio);
     }
+
+    public void BoxDestroyPlay(Transform objectTransform)
+    {
+        RuntimeManager.PlayOneShot(boxDestroyAudio, objectTransform.position);
+    }
 }
